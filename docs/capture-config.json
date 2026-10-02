@@ -1,0 +1,41 @@
+{
+  "jobs": [
+    {
+      "root": ".",
+      "label": "vincent-p-essy.github.io",
+      "caption": "The portfolio's actual terminal interface, showing its built-in help and projects commands.",
+      "setup": [],
+      "commands": [],
+      "server": [
+        "python",
+        "-m",
+        "http.server",
+        "8650",
+        "--bind",
+        "127.0.0.1"
+      ],
+      "actions": [
+        {
+          "type": "fill",
+          "selector": "#cmd-input",
+          "value": "help"
+        },
+        {
+          "type": "key",
+          "selector": "#cmd-input",
+          "key": "Enter"
+        },
+        {
+          "type": "fill",
+          "selector": "#cmd-input",
+          "value": "projects"
+        },
+        {
+          "type": "key",
+          "selector": "#cmd-input",
+          "key": "Enter"
+        }
+      ]
+    }
+  ]
+}
