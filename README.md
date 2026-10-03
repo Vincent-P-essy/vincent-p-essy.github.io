@@ -2,6 +2,12 @@
 
 A single-page interactive terminal portfolio built with vanilla HTML, CSS, and JavaScript. No frameworks, no templates — just the raw web platform.
 
+## Preview
+
+![Interactive terminal portfolio showing the project listing](docs/screenshots/homepage.png)
+
+The locally served portfolio after entering `ls projects/` in its terminal interface.
+
 ## Live URL
 
 https://vincent-p-essy.github.io
@@ -47,4 +53,4 @@ What you should see when the page loads:
 
 ## Author
 
-Vincent Plessy — [vincent.plessy12@gmail.com](mailto:vincent.plessy12@gmail.com)
+Vincent Plessy — [GitHub](https://github.com/Vincent-P-essy)
